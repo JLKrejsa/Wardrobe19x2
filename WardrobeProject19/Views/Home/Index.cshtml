@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>My Virtual Wardrobe</h1>
+    @*<p class="lead">Picking the right outfit it hard. Not with My Virtual Wardrobe. Catalog each item and build outfits easily!</p>*@
+    <h4> Name your clothing item. Add a photo. Define the Color, Occasion, Season, and Clothing Type. All in one easy app.</h4>
+</div>
+
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="~/Content/images/shoes hats dresses.jpg" />
+            <div class="caption">
+                <h3>Add Clothing</h3>
+                <p>Add your wardrobe one shirt, blouse, or handbag at a time.</p>
+                <p><a href="/ClothingTables/Create" class="btn btn-primary" role="button">Add a wardrobe piece</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="~/Content/images/closet space.jpg" />
+            <div class="caption">
+                <h3>Organize</h3>
+                <p>With all your clothing catalogued never struggle to build an outfit again.</p>
+                <p><a href="ClothingTables/Index" class="btn btn-primary" role="button">View wardrobe</a>
+            </div>
+        </div>
+    </div>
+<div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+        <img src="~/Content/images/dresses.png" />
+        <div class="caption">
+            <h3>View Items</h3>
+            <p>View details of your specific items.</p>
+            <p><a href="/ClothingTables/Edit" class="btn btn-primary" role="button">View Item</a>
+        </div>
+    </div>
+</div>
+</div>
